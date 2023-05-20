@@ -4,8 +4,8 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "215bf955dd0705505ee321916e6bd96e",
-"index.html": "6318126e141a5333e6f4d25129bc3a52",
-"/": "6318126e141a5333e6f4d25129bc3a52",
+"index.html": "4e882cc1bf82777e3b6e81750a2f7412",
+"/": "4e882cc1bf82777e3b6e81750a2f7412",
 "main.dart.js": "9082c80b5ce3104c430ac4b1a28915de",
 "flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
 "favicon.png": "f810af71729f00884faec6d1fc5e76f4",
@@ -22,12 +22,8 @@ const RESOURCES = {
 "assets/assets/image/Toya.png": "3ba66cfa0aaee45891b20707a62af836",
 "assets/assets/image/Front_1_c.jpg": "f6c2581c73979a4c0c80735e60bacc42",
 "assets/assets/image/ToyaGel%2520Logo.png": "f810af71729f00884faec6d1fc5e76f4",
-"assets/assets/image/1c.jpg": "fa265b8ead4423db5eb8ba2da751f81c",
-"assets/assets/image/2c.jpg": "77861735660bdb901f235bf8fb2e28d5",
 "assets/assets/font/Maharlika-Regular.ttf": "e9d9ecf545e95474ea2fc6bfb69554fc",
-"assets/assets/font/Breathing.ttf": "ca9698e55069c3859da5c293ca67a325",
 "assets/assets/font/PoiretOne-Regular.ttf": "8d15f9c0d468e1de889e81fae1087b61",
-"assets/assets/font/Pacifico-Regular.ttf": "8cd9eedd1bcea74e8e98731c32a5ff3e",
 "canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
 "canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
 "canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
