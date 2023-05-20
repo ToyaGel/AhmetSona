@@ -23,7 +23,7 @@ class HomePage extends StatelessWidget {
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10.0),
                 image: const DecorationImage(
-                  image: AssetImage('assets/image/Toya.png'),
+                  image: AssetImage('assets/image/Logo_1.jpg'),
                 ),
               ),
             ),
@@ -86,7 +86,7 @@ class HomePage extends StatelessWidget {
         decoration: const BoxDecoration(
           image: DecorationImage(
             fit: BoxFit.cover,
-            image: AssetImage('assets/image/Front_1_c.jpg'),
+            image: AssetImage('assets/image/Front.jpg'),
           ),
         ),
         child: Column(
