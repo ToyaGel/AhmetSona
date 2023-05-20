@@ -4,8 +4,8 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "215bf955dd0705505ee321916e6bd96e",
-"index.html": "4e882cc1bf82777e3b6e81750a2f7412",
-"/": "4e882cc1bf82777e3b6e81750a2f7412",
+"index.html": "a3163ba285cbea05fc88bf89f717f88d",
+"/": "a3163ba285cbea05fc88bf89f717f88d",
 "main.dart.js": "9082c80b5ce3104c430ac4b1a28915de",
 "flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
 "favicon.png": "f810af71729f00884faec6d1fc5e76f4",
@@ -14,7 +14,7 @@ const RESOURCES = {
 "icons/Icon-maskable-512.jpg": "2a2a21d0ebb1f3c3cb8a63caf30c8353",
 "icons/Icon-512.jpg": "2a2a21d0ebb1f3c3cb8a63caf30c8353",
 "manifest.json": "846dc8bcc3c6aac00bae1b928827eb26",
-"assets/AssetManifest.json": "9e97204110438d2ca2b124c7894dc151",
+"assets/AssetManifest.json": "e3c7aa54aa1334f442cf22e3e49a4ced",
 "assets/NOTICES": "008f12505592cd1e703d943a5de8cbcc",
 "assets/FontManifest.json": "3ca2b9fe79661ea0180b941dcaeea14b",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
@@ -22,6 +22,7 @@ const RESOURCES = {
 "assets/assets/image/Toya.png": "3ba66cfa0aaee45891b20707a62af836",
 "assets/assets/image/Front_1_c.jpg": "f6c2581c73979a4c0c80735e60bacc42",
 "assets/assets/image/ToyaGel%2520Logo.png": "f810af71729f00884faec6d1fc5e76f4",
+"assets/assets/image/background.png": "43a1add41476004af86e3162e7310f6f",
 "assets/assets/font/Maharlika-Regular.ttf": "e9d9ecf545e95474ea2fc6bfb69554fc",
 "assets/assets/font/PoiretOne-Regular.ttf": "8d15f9c0d468e1de889e81fae1087b61",
 "canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
