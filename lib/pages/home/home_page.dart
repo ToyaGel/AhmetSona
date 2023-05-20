@@ -41,13 +41,13 @@ class HomePage extends StatelessWidget {
                       fontFamily: 'PoiretOne',
                       fontWeight: FontWeight.w900,
                       fontSize: Dimensions.textSize16,
-                      color: dialogColor,
+                      color: textColor,
                     ),
                     dropdownColor: dropdownColor,
                     icon: Icon(
                       Icons.language,
                       size: Dimensions.iconSize20,
-                      color: dialogColor,
+                      color: textColor,
                     ),
                     value: currentLanguage.value,
                     alignment: Alignment.center,
@@ -86,17 +86,33 @@ class HomePage extends StatelessWidget {
         decoration: const BoxDecoration(
           image: DecorationImage(
             fit: BoxFit.cover,
-            image: AssetImage('assets/image/Front_1.jpg'),
+            image: AssetImage('assets/image/Front_1_c.jpg'),
           ),
         ),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
-            Column(
+            SizedBox(
+              height: Dimensions.sizedBox110,
+            ),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 1.0),
+              child: TextWidget(
+                text: 'mainText',
+                fontSize: Dimensions.textSize20,
+                delayStart: 1,
+                fontFamily: 'PoiretOne',
+              ),
+            ),
+            SizedBox(
+              height: Dimensions.sizedBox20,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 TextWidget(
                   text: 'saturday',
-                  fontSize: Dimensions.textSize30,
+                  fontSize: Dimensions.textSize22,
                   delayStart: 1,
                   fontFamily: 'PoiretOne',
                 ),
@@ -134,25 +150,14 @@ class HomePage extends StatelessWidget {
                 ),
               ],
             ),
+            SizedBox(
+              height: Dimensions.sizedBox20,
+            ),
             TextWidget(
               text: 'location',
               fontSize: Dimensions.textSize22,
               delayStart: 1,
               fontFamily: 'PoiretOne',
-            ),
-            TextWidget(
-              text: 'Ahmet & Sona',
-              fontSize: Dimensions.textSize38,
-              delayStart: 1,
-              fontFamily: 'Maharlika',
-            ),
-            Center(
-              child: TextWidget(
-                text: 'mainText',
-                fontSize: Dimensions.textSize30,
-                delayStart: 1,
-                fontFamily: currentLanguage != 'Русский' ? 'Maharlika' : 'PoiretOne',
-              ),
             ),
           ],
         ),
@@ -219,7 +224,7 @@ class HomePage extends StatelessWidget {
             );
           },
           alignment: Alignment.centerLeft,
-          color: dialogColor,
+          color: textColor,
           icon: Icon(
             Icons.info_outline,
             size: Dimensions.iconSize30,

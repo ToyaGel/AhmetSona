@@ -19,7 +19,7 @@ class Localization extends Translations {
           'contact': 'Контакты:',
           'saveDate': 'Сохранить дату',
           'email': 'Email: toychakylyklary@gmail.com',
-          'tel': 'Телефон: (+993 63) 581010',
+          'tel': 'Тел: (+993 63) 581010',
           'copied': 'Скопировано',
           'saturday': 'Суббота\n18:00',
           'june': 'Июнь\n2023',
